@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="TempShopAccount">
+  <DataContextMoniker Name="/TempShopAccountDataContext" />
+  <nestedChildShapes>
+    <classShape Id="0a9c2056-e36c-44de-ad69-043e7741df01" absoluteBounds="2.875, 1.5, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/TempShopAccountDataContext/TempShopAccount" />
+      <nestedChildShapes>
+        <elementListCompartment Id="471d78ae-285c-408b-974c-d414749e8cf2" absoluteBounds="2.8899999999999997, 1.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

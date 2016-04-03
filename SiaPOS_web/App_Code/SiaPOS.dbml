@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SibalChk2011" Class="SiaPOSDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=124.198.16.87;Initial Catalog=SibalChk2011;User ID=jung" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="SibalChk2011ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="Shop.ShopAccount" Member="ShopAccount">
+    <Type Name="ShopAccount">
+      <Column Name="ShopAccountID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ShopID" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="MenuName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="TableNumber" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MenuAccount" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Profit" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OrderState" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="ShopInformation_ShopAccount" Member="ShopInformation" ThisKey="ShopID" OtherKey="ShopID" Type="ShopInformation" IsForeignKey="true" />
+      <Association Name="MenuInformation_ShopAccount" Member="MenuInformation" ThisKey="MenuName" OtherKey="MenuName" Type="MenuInformation" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="Shop.ShopInformation" Member="ShopInformation">
+    <Type Name="ShopInformation">
+      <Column Name="ShopID" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="RegionCode" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ShopName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ShopOpenDate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="ShopTableAccout" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="ShopInformation_ShopAccount" Member="ShopAccount" ThisKey="ShopID" OtherKey="ShopID" Type="ShopAccount" />
+    </Type>
+  </Table>
+  <Table Name="Product.MenuInformation" Member="MenuInformation">
+    <Type Name="MenuInformation">
+      <Column Name="MenuName" Type="System.String" DbType="VarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ImageContent" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="ImageType" Type="System.String" DbType="Char(10) NOT NULL" CanBeNull="false" />
+      <Column Name="ImageHeight" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ImageWidth" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MenuPrice" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MenuInfomation" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Association Name="MenuInformation_ShopAccount" Member="ShopAccount" ThisKey="MenuName" OtherKey="MenuName" Type="ShopAccount" />
+    </Type>
+  </Table>
+  <Function Name="dbo.DeleteShopAccount" Method="DeleteShopAccount">
+    <Parameter Name="ShopID" Parameter="shopID" Type="System.String" DbType="VarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SelectShopAccount" Method="SelectShopAccount">
+    <Parameter Name="ShopID" Parameter="shopID" Type="System.String" DbType="VarChar(50)" />
+    <ElementType Name="SelectShopAccountResult">
+      <Column Name="ShopAccountID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ShopID" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="MenuName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Date" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="TableNumber" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MenuAccount" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Profit" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OrderState" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

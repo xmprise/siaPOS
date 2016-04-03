@@ -1,0 +1,44 @@
+C:\Users\WJ\Documents\Visual Studio 2010\Projects\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\bin\Debug\SibalCHKpos.exe.config
+C:\Users\WJ\Documents\Visual Studio 2010\Projects\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\bin\Debug\SibalCHKpos.exe
+C:\Users\WJ\Documents\Visual Studio 2010\Projects\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\bin\Debug\SibalCHKpos.pdb
+C:\Users\WJ\Documents\Visual Studio 2010\Projects\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\bin\Debug\SibalCHKpos.xml
+C:\Users\WJ\Documents\Visual Studio 2010\Projects\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\WJ\Documents\Visual Studio 2010\Projects\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\SibalCHKpos.ShopTable.resources
+C:\Users\WJ\Documents\Visual Studio 2010\Projects\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\SibalCHKpos.menuAdd.resources
+C:\Users\WJ\Documents\Visual Studio 2010\Projects\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\SibalCHKpos.frm_Account.resources
+C:\Users\WJ\Documents\Visual Studio 2010\Projects\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\SibalCHKpos.frm_Total.resources
+C:\Users\WJ\Documents\Visual Studio 2010\Projects\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\SibalCHKpos.frm_Stock.resources
+C:\Users\WJ\Documents\Visual Studio 2010\Projects\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\SibalCHKpos.frm_Main.resources
+C:\Users\WJ\Documents\Visual Studio 2010\Projects\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\SibalCHKpos.MdiDays.resources
+C:\Users\WJ\Documents\Visual Studio 2010\Projects\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\SibalCHKpos.ScheduleLIst.resources
+C:\Users\WJ\Documents\Visual Studio 2010\Projects\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\SibalCHKpos.frm_Order.resources
+C:\Users\WJ\Documents\Visual Studio 2010\Projects\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\SibalCHKpos.MainLogin.resources
+C:\Users\WJ\Documents\Visual Studio 2010\Projects\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\SibalCHKpos.Login.resources
+C:\Users\WJ\Documents\Visual Studio 2010\Projects\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\SibalCHKpos.Resources.resources
+C:\Users\WJ\Documents\Visual Studio 2010\Projects\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\WJ\Documents\Visual Studio 2010\Projects\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\WJ\Documents\Visual Studio 2010\Projects\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\SibalCHKpos.exe
+C:\Users\WJ\Documents\Visual Studio 2010\Projects\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\SibalCHKpos.xml
+C:\Users\WJ\Documents\Visual Studio 2010\Projects\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\SibalCHKpos.pdb
+D:\SiaPOS\SiaPOS\local_ver\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\bin\Debug\SibalCHKpos.exe.config
+D:\SiaPOS\SiaPOS\local_ver\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\bin\Debug\SibalCHKpos.exe
+D:\SiaPOS\SiaPOS\local_ver\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\bin\Debug\SibalCHKpos.pdb
+D:\SiaPOS\SiaPOS\local_ver\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\bin\Debug\SibalCHKpos.xml
+D:\SiaPOS\SiaPOS\local_ver\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\SiaPOS\SiaPOS\local_ver\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\SibalCHKpos.ShopTable.resources
+D:\SiaPOS\SiaPOS\local_ver\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\SibalCHKpos.menuAdd.resources
+D:\SiaPOS\SiaPOS\local_ver\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\SibalCHKpos.frm_Account.resources
+D:\SiaPOS\SiaPOS\local_ver\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\SibalCHKpos.frm_Total.resources
+D:\SiaPOS\SiaPOS\local_ver\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\SibalCHKpos.frm_Stock.resources
+D:\SiaPOS\SiaPOS\local_ver\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\SibalCHKpos.frm_Main.resources
+D:\SiaPOS\SiaPOS\local_ver\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\SibalCHKpos.MdiDays.resources
+D:\SiaPOS\SiaPOS\local_ver\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\SibalCHKpos.ScheduleLIst.resources
+D:\SiaPOS\SiaPOS\local_ver\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\SibalCHKpos.frm_Order.resources
+D:\SiaPOS\SiaPOS\local_ver\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\SibalCHKpos.MainLogin.resources
+D:\SiaPOS\SiaPOS\local_ver\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\SibalCHKpos.Login.resources
+D:\SiaPOS\SiaPOS\local_ver\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\SibalCHKpos.Resources.resources
+D:\SiaPOS\SiaPOS\local_ver\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\SiaPOS\SiaPOS\local_ver\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\SiaPOS\SiaPOS\local_ver\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\SibalCHKpos.exe
+D:\SiaPOS\SiaPOS\local_ver\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\SibalCHKpos.xml
+D:\SiaPOS\SiaPOS\local_ver\SiaPOS_POS\SiaPOS_POS\WindowsApplication2\obj\x86\Debug\SibalCHKpos.pdb

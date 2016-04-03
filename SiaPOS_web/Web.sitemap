@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/Default.aspx" title="HOME"  description="">
+    <siteMapNode url="" title="SiaPOS" description="">
+      <siteMapNode  url="" title="SiaPOS Information" description=""/>
+      <siteMapNode  url="" title="SiaPOS Download" description=""/>
+    </siteMapNode>
+    <siteMapNode url="" title="Manage"  description="">
+      <siteMapNode url="Member/MenuManager.aspx" title="Menu"  description="" />
+      <siteMapNode url="Member/ShopStockManager.aspx" title="Stock"  description="" />
+    </siteMapNode>
+    <siteMapNode url="" title="Information" description ="">
+      <siteMapNode url="Member/DAL_AccountGridView.aspx" title="Sales" description="" />
+      <siteMapNode url="Member/DAL_AccountView.aspx" title="Current Sales" description="" />
+      <siteMapNode url="Member/SelectAllShopinfo.aspx" title="Total Sales" description ="" />
+      <siteMapNode url="Member/ShopAnalysis.aspx" title="Total Analysis" description ="" />
+    </siteMapNode>
+    <siteMapNode url ="" title ="Analysis" description ="">
+      <siteMapNode url="Member/MenuAccountAnalysis.aspx" title="Sales" description ="" />
+      <siteMapNode url="Member/ShopCompare.aspx" title="SalesCompare" description ="" />
+      <siteMapNode url="Member/SalesTable.aspx" title="Sales by Table" description ="" />
+      <siteMapNode url="Member/TimesSales.aspx" title="Sales by Date" description ="" />
+      <siteMapNode url="Member/DiscardMenu.aspx" title="Status Discard Menu" description ="" />  
+    </siteMapNode>
+    <siteMapNode url ="" title ="Message" description ="">
+      <siteMapNode url="Member/AddCommand.aspx" title="Message" description ="" />
+      <siteMapNode url="Member/UpdateCommand.aspx" title="Modify" description ="" />
+    </siteMapNode>
+    <siteMapNode url="~/Register.aspx" title="Sign In" description="Sign In" />
+    <siteMapNode url="" title="Help" description="" >
+      <siteMapNode url="" title="FAQ" description ="" />
+      <siteMapNode url="" title ="Question" description ="" />
+      <siteMapNode url="" title="Support" description="" />
+    </siteMapNode>
+    <siteMapNode url="" title ="LINQ" description ="">
+      <siteMapNode url="Member/LINQ_Example1.aspx" title="LINQ1" description="" />
+      <siteMapNode url="Member/LINQ_Example2.aspx" title="LINQ2" description="" />
+    </siteMapNode>
+
+  </siteMapNode> 
+</siteMap>

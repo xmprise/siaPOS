@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SibalChk2011" Class="ShopMessageDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=124.198.16.87;Initial Catalog=SibalChk2011;User ID=jung" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="SibalChk2011ConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="Shop.MessageTypes" Member="MessageTypes">
+    <Type Name="MessageTypes">
+      <Column Name="MessageTypeID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MessageType" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Status" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="Shop.ShopMessage" Member="ShopMessage">
+    <Type Name="ShopMessage">
+      <Column Name="MessageID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ShopID" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Message" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="MessageType" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="MessageDate" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Function Name="dbo.InsertShopMessage" Method="InsertShopMessage">
+    <Parameter Name="ShopID" Parameter="shopID" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Message" Parameter="message" Type="System.String" DbType="VarChar(MAX)" />
+    <Parameter Name="MessageType" Parameter="messageType" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="MessageDate" Parameter="messageDate" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="MessageID" Parameter="messageID" Type="System.Int32" DbType="Int" Direction="InOut" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.UpdateShopMessage" Method="UpdateShopMessage">
+    <Parameter Name="MessageID" Parameter="messageID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ShopID" Parameter="shopID" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="Message" Parameter="message" Type="System.String" DbType="VarChar(MAX)" />
+    <Parameter Name="MessageType" Parameter="messageType" Type="System.String" DbType="VarChar(50)" />
+    <Parameter Name="MessageDate" Parameter="messageDate" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

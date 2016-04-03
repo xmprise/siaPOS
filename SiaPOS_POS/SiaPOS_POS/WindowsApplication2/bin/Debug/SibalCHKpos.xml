@@ -1,0 +1,180 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SibalCHKpos
+</name>
+</assembly>
+<members>
+<member name="T:SibalCHKpos.SibalChk_MenuInfo.MenuInformationDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SibalCHKpos.SibalChk_MenuInfo.MenuInformationRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SibalCHKpos.SibalChk_MenuInfo.MenuInformationRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SibalCHKpos.SibalChk_MenuInfo">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SibalCHKpos.SibalChk_MenuInfoTableAdapters.MenuInformationTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:SibalCHKpos.SibalChk_MenuInfoTableAdapters.TableAdapterManager.UpdateUpdatedRows(SibalCHKpos.SibalChk_MenuInfo,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:SibalCHKpos.SibalChk_MenuInfoTableAdapters.TableAdapterManager.UpdateInsertedRows(SibalCHKpos.SibalChk_MenuInfo,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:SibalCHKpos.SibalChk_MenuInfoTableAdapters.TableAdapterManager.UpdateDeletedRows(SibalCHKpos.SibalChk_MenuInfo,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:SibalCHKpos.SibalChk_MenuInfoTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:SibalCHKpos.SibalChk_MenuInfoTableAdapters.TableAdapterManager.UpdateAll(SibalCHKpos.SibalChk_MenuInfo)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:SibalCHKpos.SibalChk_MenuInfoTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:SibalCHKpos.SibalChk_MenuInfoTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:SibalCHKpos.SibalChk_MenuInfoTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:SibalCHKpos.My.Resources.Resources.ResourceManager">
+	<summary>
+  이 클래스에서 사용하는 캐시된 ResourceManager 인스턴스를 반환합니다.
+</summary>
+</member><member name="P:SibalCHKpos.My.Resources.Resources.Culture">
+	<summary>
+  이 강력한 형식의 리소스 클래스를 사용하여 모든 리소스 조회에 대한 현재 스레드의 CurrentUICulture
+  속성을 재정의합니다.
+</summary>
+</member><member name="T:SibalCHKpos.My.Resources.Resources">
+	<summary>
+  지역화된 문자열 등을 찾기 위한 강력한 형식의 리소스 클래스입니다.
+</summary>
+</member><member name="T:SibalCHKpos.SibalChk2011DataSet.ShopAccountDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SibalCHKpos.SibalChk2011DataSet.ShopAccountRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SibalCHKpos.SibalChk2011DataSet.ShopAccountRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SibalCHKpos.SibalChk2011DataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SibalCHKpos.SibalChk2011DataSetTableAdapters.ShopAccountTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:SibalCHKpos.SibalChk2011DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SibalCHKpos.SibalChk2011DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:SibalCHKpos.SibalChk2011DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SibalCHKpos.SibalChk2011DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:SibalCHKpos.SibalChk2011DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SibalCHKpos.SibalChk2011DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:SibalCHKpos.SibalChk2011DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:SibalCHKpos.SibalChk2011DataSetTableAdapters.TableAdapterManager.UpdateAll(SibalCHKpos.SibalChk2011DataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:SibalCHKpos.SibalChk2011DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:SibalCHKpos.SibalChk2011DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:SibalCHKpos.SibalChk2011DataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:SibalCHKpos.VbnetDBDataSet3.ShopAccountsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:SibalCHKpos.VbnetDBDataSet3.ShopAccountsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:SibalCHKpos.VbnetDBDataSet3.ShopAccountsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:SibalCHKpos.VbnetDBDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:SibalCHKpos.VbnetDBDataSet3TableAdapters.ShopAccountsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:SibalCHKpos.VbnetDBDataSet3TableAdapters.TableAdapterManager.UpdateUpdatedRows(SibalCHKpos.VbnetDBDataSet3,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:SibalCHKpos.VbnetDBDataSet3TableAdapters.TableAdapterManager.UpdateInsertedRows(SibalCHKpos.VbnetDBDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:SibalCHKpos.VbnetDBDataSet3TableAdapters.TableAdapterManager.UpdateDeletedRows(SibalCHKpos.VbnetDBDataSet3,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:SibalCHKpos.VbnetDBDataSet3TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:SibalCHKpos.VbnetDBDataSet3TableAdapters.TableAdapterManager.UpdateAll(SibalCHKpos.VbnetDBDataSet3)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:SibalCHKpos.VbnetDBDataSet3TableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:SibalCHKpos.VbnetDBDataSet3TableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:SibalCHKpos.VbnetDBDataSet3TableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

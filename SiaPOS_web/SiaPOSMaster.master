@@ -1,0 +1,105 @@
+﻿<%@ Master Language="VB" CodeFile="SiaPOSMaster.master.vb" Inherits="SiaPOSMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    
+<meta name="Description" content="..." />
+<meta name="Keywords" content="..." />
+<meta name="robots" content="all,follow" />
+<meta name="author" content="..." />
+<meta name="copyright" content="" />
+
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<!-- CSS -->
+<!--[if lte IE 6]><link rel="stylesheet" type="text/css" href="css/style-ie.css" media="screen, projection, tv" /><![endif]-->
+
+<title>SiaPOS | HomeService</title>
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    
+    <form id="form1" runat="server">
+            <!--AJAX ScriptManager-->
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <div>
+
+    <div id="top">&nbsp;</div>
+<div id="sizer">
+<div id="expander">
+<div id="wrapper">
+
+	<!-- Header -->
+	<div id="header">
+		<h1><a href="Default.aspx" title="Go to homepage"></a></h1>
+		<p class="title"></p>
+
+		<div id="header-in">
+			<p>&nbsp;</p> <!--h1으로 바꾸면 로그인 안됨-->
+        </div>
+ 
+		<a href="#skip-menu" class="hidden">Skip menu</a>
+
+	    <!-- Menu -->
+        <div id="menu">
+        <asp:Menu ID="Menu1" SkinID="mainMenu" runat="server" 
+                DataSourceID="SiteMapDataSource1" MaximumDynamicDisplayLevels="2" 
+                StaticDisplayLevels="2">
+        </asp:Menu>
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+    </div> <!-- Menu end -->
+                <div id="breadcrumbs">
+                <asp:SiteMapPath ID="sitemappath" runat="server" 
+             RenderCurrentNodeAsLink="true" 
+             ParentLevelsDisplayed="2" ForeColor="Black">
+        </asp:SiteMapPath>
+        </div> 
+         <div id="logout">
+                    <asp:LoginStatus ID="LoginStatus1" runat="server" 
+                        LogoutPageUrl="~/Default.aspx" LogoutAction="Redirect" LoginText="Login" 
+                        LogoutText="Logout" />
+         </div>
+    </div> <!-- Header end -->
+  
+	<div class="bar">
+    &nbsp;</div>
+<hr class="noscreen" />
+<div id="skip-menu"></div>
+
+	<div class="content">
+         <div class="content-in">
+            <asp:ContentPlaceHolder ID="bodyContent" runat="server">
+            
+            </asp:ContentPlaceHolder>
+         </div>
+	</div> <!-- Content end -->
+
+<hr class="noscreen" />
+
+	<!-- Footer -->
+	<div id="footer">
+    <div id="footernav">
+        <asp:Menu ID="Menu2" SkinID="footerMenu" runat="server" DataSourceID="SiteMapDataSource1"> 
+        </asp:Menu>
+    </div> 
+    <p class="cop">Copyright © 2011 <a href="#">SiaPOS Website</a>. All Rights Reserved.</p>
+  </div> <!-- Footer end -->
+
+<hr class="noscreen" />
+
+</div> <!-- Wrapper end -->
+</div>
+</div>
+
+
+    </div>
+    </form>
+</body>
+</html>

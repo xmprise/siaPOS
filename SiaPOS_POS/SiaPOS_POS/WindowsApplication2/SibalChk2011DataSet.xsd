@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SibalChk2011DataSet" targetNamespace="http://tempuri.org/SibalChk2011DataSet.xsd" xmlns:mstns="http://tempuri.org/SibalChk2011DataSet.xsd" xmlns="http://tempuri.org/SibalChk2011DataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="SibalChk2011ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SibalChk2011ConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.SibalCHKpos.My.MySettings.GlobalReference.Default.SibalChk2011ConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ShopAccountTableAdapter" GeneratorDataComponentClassName="ShopAccountTableAdapter" Name="ShopAccount" UserDataComponentName="ShopAccountTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SibalChk2011ConnectionString (MySettings)" DbObjectName="SibalChk2011.Shop.ShopAccount" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT MenuName, Date, TableNumber, MenuAccount, Profit FROM Shop.ShopAccount</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="MenuName" DataSetColumn="MenuName" />
+              <Mapping SourceColumn="Date" DataSetColumn="Date" />
+              <Mapping SourceColumn="TableNumber" DataSetColumn="TableNumber" />
+              <Mapping SourceColumn="MenuAccount" DataSetColumn="MenuAccount" />
+              <Mapping SourceColumn="Profit" DataSetColumn="Profit" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SibalChk2011DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="SibalChk2011DataSet" msprop:Generator_UserDSName="SibalChk2011DataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ShopAccount" msprop:Generator_TableClassName="ShopAccountDataTable" msprop:Generator_TableVarName="tableShopAccount" msprop:Generator_TablePropName="ShopAccount" msprop:Generator_RowDeletingName="ShopAccountRowDeleting" msprop:Generator_UserTableName="ShopAccount" msprop:Generator_RowChangingName="ShopAccountRowChanging" msprop:Generator_RowEvHandlerName="ShopAccountRowChangeEventHandler" msprop:Generator_RowDeletedName="ShopAccountRowDeleted" msprop:Generator_RowEvArgName="ShopAccountRowChangeEvent" msprop:Generator_RowChangedName="ShopAccountRowChanged" msprop:Generator_RowClassName="ShopAccountRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MenuName" msprop:Generator_ColumnVarNameInTable="columnMenuName" msprop:Generator_ColumnPropNameInRow="MenuName" msprop:Generator_ColumnPropNameInTable="MenuNameColumn" msprop:Generator_UserColumnName="MenuName">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInRow="_Date" msprop:Generator_ColumnPropNameInTable="DateColumn" msprop:Generator_UserColumnName="Date" type="xs:dateTime" />
+              <xs:element name="TableNumber" msprop:Generator_ColumnVarNameInTable="columnTableNumber" msprop:Generator_ColumnPropNameInRow="TableNumber" msprop:Generator_ColumnPropNameInTable="TableNumberColumn" msprop:Generator_UserColumnName="TableNumber" type="xs:int" />
+              <xs:element name="MenuAccount" msprop:Generator_ColumnVarNameInTable="columnMenuAccount" msprop:Generator_ColumnPropNameInRow="MenuAccount" msprop:Generator_ColumnPropNameInTable="MenuAccountColumn" msprop:Generator_UserColumnName="MenuAccount" type="xs:int" />
+              <xs:element name="Profit" msprop:Generator_ColumnVarNameInTable="columnProfit" msprop:Generator_ColumnPropNameInRow="Profit" msprop:Generator_ColumnPropNameInTable="ProfitColumn" msprop:Generator_UserColumnName="Profit" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

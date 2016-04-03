@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SiaPOS">
+  <DataContextMoniker Name="/SiaPOSDataContext" />
+  <nestedChildShapes>
+    <classShape Id="a11e625a-8ed8-4afb-bce6-8140a3fdbd38" absoluteBounds="1.75, 0.5, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/SiaPOSDataContext/ShopAccount" />
+      <nestedChildShapes>
+        <elementListCompartment Id="569a2b31-2f29-47af-851d-13d4a26de449" absoluteBounds="1.7649999999999997, 0.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="de8d3185-3416-4bb5-b448-82331ef1d927" absoluteBounds="4.625, 0.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/SiaPOSDataContext/ShopInformation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8dd36152-a762-4706-a822-ef8484a801ee" absoluteBounds="4.64, 0.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(4.625 : 1.38544840494792); (3.75 : 1.38544840494792)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SiaPOSDataContext/ShopInformation/ShopInformation_ShopAccount" />
+      <nodes>
+        <classShapeMoniker Id="de8d3185-3416-4bb5-b448-82331ef1d927" />
+        <classShapeMoniker Id="a11e625a-8ed8-4afb-bce6-8140a3fdbd38" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="2487778d-002b-4366-9c49-89d248bc21ee" absoluteBounds="6, 3.5, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/SiaPOSDataContext/MenuInformation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="65e8767b-7a80-4edc-aea1-ff229cd7402b" absoluteBounds="6.015, 3.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.34375 : 3.5); (7.34375 : 2.59059895833333); (3.75 : 2.59059895833333)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SiaPOSDataContext/MenuInformation/MenuInformation_ShopAccount" />
+      <nodes>
+        <classShapeMoniker Id="2487778d-002b-4366-9c49-89d248bc21ee" />
+        <classShapeMoniker Id="a11e625a-8ed8-4afb-bce6-8140a3fdbd38" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
